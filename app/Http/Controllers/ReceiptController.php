@@ -8,6 +8,7 @@ use App\Product;
 
 use Carbon\Carbon;
 use App\ReceivedProduct;
+
 use Illuminate\Http\Request;
 
 class ReceiptController extends Controller
