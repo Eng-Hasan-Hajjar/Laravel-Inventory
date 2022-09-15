@@ -6,6 +6,7 @@ use App\Product;
 use Carbon\Carbon;
 use App\SoldProduct;
 use App\ProductCategory;
+
 use Illuminate\Http\Request;
 
 class InventoryController extends Controller
