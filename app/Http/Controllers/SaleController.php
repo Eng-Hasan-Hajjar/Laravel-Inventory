@@ -9,6 +9,8 @@ use Carbon\Carbon;
 use App\SoldProduct;
 use App\Transaction;
 use App\PaymentMethod;
+
+
 use Illuminate\Http\Request;
 
 class SaleController extends Controller
