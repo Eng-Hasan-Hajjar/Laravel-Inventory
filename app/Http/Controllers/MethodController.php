@@ -7,6 +7,7 @@ use App\Transaction;
 use App\PaymentMethod;
 use Illuminate\Http\Request;
 
+
 class MethodController extends Controller
 {
     /**
