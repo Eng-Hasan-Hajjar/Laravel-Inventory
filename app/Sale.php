@@ -18,6 +18,7 @@ class Sale extends Model
     public function products() {
         return $this->hasMany('App\SoldProduct');
     }
+    
     public function user() {
         return $this->belongsTo('App\User');
     }
