@@ -36,6 +36,7 @@ class Transaction extends Model
     {
         return $this->belongsTo('App\Transfer');
     }
+    
 
     public function scopeFindByPaymentMethodId($query, $id)
     {
